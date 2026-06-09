@@ -1,1 +1,3 @@
 The Joulescope acquisition framework was responsible for interfacing with the JS110 precision DC energy analyser, capturing voltage, current, and instantaneous power measurements. A data acquisition script was deployed on the master Raspberry Pi which kept a running summation of instantaneous power measurements, which were used to calculate average power use. In addition, the acquisition script also calculating cumulative energy consumption from the acquired power samples.
+
+The data acquisition script was downloaded from and has Copyright 2019-2021 Jetperch LLC
